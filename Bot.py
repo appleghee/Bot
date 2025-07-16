@@ -7,7 +7,7 @@ import os
 # Cấu hình
 TELEGRAM_TOKEN = '7121962149:AAHpzCYy-4KrWILDXQoV9woV3J5oI77wELE'
 OCR_API_KEY = 'K88631585888957'
-CV_IMAGE_PATH = 'path/to/cv.jpg'  # Thay bằng đường dẫn file hoặc URL của cv.jpg
+CV_IMAGE_PATH = 'cv.jpg'  # Thay bằng đường dẫn file hoặc URL của cv.jpg
 REDIS_CLIENT = redis.Redis(host='localhost', port=6379, db=0)
 
 # Hàm khởi động bot
